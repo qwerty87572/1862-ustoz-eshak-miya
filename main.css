@@ -1,0 +1,44 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.header_wrapper {
+  position: relative;
+}
+.nav_main {
+  display: flex;
+  gap: 27px;
+}
+header {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+}
+.nav_main li a {
+  color: white;
+}
+p,
+h1 {
+  color: white;
+  margin-top: 400px;
+}
+.btn {
+  padding: 12px 42px;
+  color: black;
+  border: 2px solid white;
+}
+
